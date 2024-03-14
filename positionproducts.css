@@ -108,7 +108,7 @@ li{
     line-height: 30px;
     position: absolute;
     bottom: -100px;
-    right: -150px;
+    right:-150px;
 }
 .product-container h3{
     text-align: left;
@@ -125,7 +125,7 @@ li{
 footer{
     background-color: rgba(47, 23, 15, 0.9);
     margin-top: 150px;
-    margin-bottom: -0px;
+    margin-bottom: -50px;
 }
 .footcont p{
     text-align: center;
