@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg);
+}
+header{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.headings h2{
+    color: #e6a756;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: "Raleway", sans-serif;
+    margin: 0 auto;
+}
+.headings h1{
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+    color: #d7bfa6;
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 4rem;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-family:"Raleway", sans-serif;
+    font-size: 1.0em;
+    font-weight: 800;
+}
+.navbar{
+    margin-top: 60px;
+    width: 100%;
+    background-color:  rgba(47, 23, 15, 0.9);    
+    padding: 40px 0px 40px 0px;  
+}
+ul{
+    margin: 0 auto;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline-block;
+}
+.product-container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+}
+
+.product-container img {
+    width: 60%;
+    margin: 0 auto;
+}
+.blend-coffee {
+    width: 450px;
+    height: 160px;
+    background-color: bisque;
+    padding: 45px;
+    position: absolute;
+    right: 10px;
+    top: -70px;
+    border-radius: 12px;
+}
+
+.product-text {
+    width: 900px;
+    height: 170px;
+    background-color: bisque;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: left;
+    line-height: 30px;
+    position: absolute;
+    bottom: -70px;
+    left: -150px;
+}
+
+.blend-coffee-2 {
+    width: 450px;
+    height: 160px;
+    background-color: bisque;
+    padding: 45px;
+    position: absolute;
+    left: 10px;
+    top: -70px;
+    border-radius: 12px;
+}
+
+.product-text-2 {
+    width: 900px;
+    height: 170px;
+    background-color: bisque;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: left;
+    line-height: 30px;
+    position: absolute;
+    bottom: -100px;
+    right: -150px;
+}
+.product-container h3{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: "Raleway", sans-serif;
+}
+.product-container h1{
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: "Raleway", sans-serif;
+}
+footer{
+    background-color: rgba(47, 23, 15, 0.9);
+    margin-top: 150px;
+    margin-bottom: -250px;
+}
+.footcont p{
+    text-align: center;
+    font-size: 0.875em;
+    font-family: "Raleway", sans-serif;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    color: white  
+}
+body:before {
+    content: "";
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color:rgba(47, 23,15,0.65);
+}
